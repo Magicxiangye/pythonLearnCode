@@ -3,6 +3,8 @@
 # defaultdict的作用是在于，当字典里的key不存在但被查找时，返回的不是keyError而是一个默认值（默认就为空）
 from collections import defaultdict
 
+from matplotlib import pyplot as plt
+
 if __name__ == "__main__":
     interests = [
         (0, "Hadoop"), (0, "Big Data"), (0, "HBase"), (0, "Java"),
